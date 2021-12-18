@@ -144,7 +144,7 @@ public class DataHelper {
 
     public static CardData getHolderWith100Letters() {
         CardData card = getCardData(approvedCardNumber);
-        card.setHolder(fakerEN.regexify("[a-zA-Z]{300}"));
+        card.setHolder(fakerEN.regexify("[a-zA-Z]{100}"));
         return card;
     }
 
